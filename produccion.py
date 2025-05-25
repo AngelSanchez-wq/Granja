@@ -1,4 +1,4 @@
-# farm_management_system/produccion.py
+
 from abc import ABC, abstractmethod
 
 class Produccion(ABC):
@@ -32,5 +32,3 @@ class Produccion(ABC):
         """
         pass
 
-# farm_management_system/cultivo.py
-from produccion import Produccion

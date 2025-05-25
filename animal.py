@@ -1,4 +1,4 @@
-# farm_management_system/animal.py
+
 from produccion import Produccion
 
 class Animal(Produccion):
@@ -60,9 +60,7 @@ class Animal(Produccion):
     def get_peso(self) -> float:
         """
         Retorna el peso del animal.
-        Returns:
-            float: El peso del animal.
+
         """
         return self._peso
 
-# farm_management_system/granja.py

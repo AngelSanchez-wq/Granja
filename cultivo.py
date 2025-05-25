@@ -1,4 +1,4 @@
-# farm_management_system/animal.py
+
 from produccion import Produccion
 
 class Cultivo(Produccion):
